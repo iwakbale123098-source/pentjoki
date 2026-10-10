@@ -29,7 +29,7 @@ export default function App() {
   const set = k => e => setF({ ...f, [k]: e.target.value });
   const send = e => {
     e.preventDefault();
-    const text = `Halo Pentjoki, saya ${f.nama}. Saya butuh: ${f.jenis}. ${f.pesan}`;
+    const text = `Halo PentJoki, saya ${f.nama}. Saya butuh: ${f.jenis}. ${f.pesan}`;
     window.open(`https://wa.me/${WA}?text=${encodeURIComponent(text)}`, '_blank', 'noopener');
   };
 
@@ -47,7 +47,7 @@ export default function App() {
       </div>
 
       <header className="nav">
-        <a href="#top" className="logo">Pentjoki</a>
+        <a href="#top" className="logo">PentJoki</a>
         <nav>
           <a href="#about">Tentang</a>
           <a href="#etalase">Etalase</a>
@@ -143,7 +143,7 @@ export default function App() {
 
       <footer className="foot">
         <div>
-          <a href="#top" className="logo">Pentjoki</a>
+          <a href="#top" className="logo">PentJoki</a>
           <p>Jasa pengerjaan tugas yang rapi, cepat, dan rahasia.</p>
         </div>
         <nav>
@@ -152,7 +152,7 @@ export default function App() {
           <a href="#pricing">Harga</a>
           <a href="#contact">Kontak</a>
         </nav>
-        <small>© {new Date().getFullYear()} Pentjoki. Seluruh hak cipta dilindungi.</small>
+        <small>© {new Date().getFullYear()} PentJoki. Seluruh hak cipta dilindungi.</small>
       </footer>
     </>
   );
