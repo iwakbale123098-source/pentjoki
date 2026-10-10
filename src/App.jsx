@@ -143,8 +143,9 @@ export default function App() {
 
       <footer className="foot">
         <div>
-          <a href="#top" className="logo">PentJoki</a>
-          <p>Jasa pengerjaan tugas yang rapi, cepat, dan rahasia.</p>
+          <a href="#top" className="logo">
+          <img src="/logo.PNG" alt="pentjoki" />
+          </a>
         </div>
         <nav>
           <a href="#about">Tentang</a>
