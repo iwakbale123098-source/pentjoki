@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import Grainient from './components/Grainient';
 
 const WA = '6287755867747'; // ganti dengan nomor WhatsApp Pentjoki
@@ -157,6 +158,7 @@ export default function App() {
         </nav>
         <small>© {new Date().getFullYear()} PentJoki. Seluruh hak cipta dilindungi.</small>
       </footer>
+      <Analytics />
     </>
   );
 }
