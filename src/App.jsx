@@ -47,7 +47,9 @@ export default function App() {
       </div>
 
       <header className="nav">
-        <a href="#top" className="logo">PentJoki</a>
+        <a href="#top" className="logo">
+          <img src="/logo.PNG" alt="pentjoki" />
+          </a>
         <nav>
           <a href="#about">Tentang</a>
           <a href="#etalase">Etalase</a>
